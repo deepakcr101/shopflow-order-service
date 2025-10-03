@@ -1,0 +1,11 @@
+spring.datasource.url=jdbc:postgresql://localhost:5432/shopflow_dev_order
+spring.datasource.username=dev_user
+spring.datasource.password=dev_pass
+spring.jpa.hibernate.ddl-auto=update
+server.port=8083
+spring.profiles.active=dev
+
+spring.kafka.bootstrap-servers=localhost:9092
+spring.kafka.properties.sasl.mechanism=PLAIN
+spring.kafka.properties.security.protocol=SASL_PLAINTEXT
+spring.kafka.properties.sasl.jaas.config=org.apache.kafka.common.security.plain.PlainLoginModule required username="user" password="password";
