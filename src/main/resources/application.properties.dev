@@ -1,7 +1,8 @@
-spring.datasource.url=jdbc:postgresql://localhost:5432/shopflow_dev_order
-spring.datasource.username=dev_user
-spring.datasource.password=dev_pass
+spring.datasource.url=jdbc:postgresql://localhost:5432/shopflow_db
+spring.datasource.username=postgres
+spring.datasource.password=Postgres@1234
 spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
 server.port=8083
 spring.profiles.active=dev
 

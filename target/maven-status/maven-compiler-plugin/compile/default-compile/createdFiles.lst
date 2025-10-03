@@ -4,5 +4,6 @@ com\shopflow\orderservice\service\OrderService.class
 com\shopflow\orderservice\controller\OrderController.class
 com\shopflow\orderservice\model\OrderItem.class
 com\shopflow\orderservice\OrderServiceApplication.class
+com\shopflow\orderservice\config\CorsConfig.class
 com\shopflow\orderservice\config\KafkaProducerConfig.class
 com\shopflow\orderservice\repository\OrderItemRepository.class
