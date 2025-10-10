@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 @Configuration
 public class CorsConfig {
 
-    @Value("${app.cors.allowed-origins:http://localhost:3000}")
+    @Value("${app.cors.allowed-origins:http://localhost:3000,https://shopflow-frontend-eight.vercel.app,https://shopflow-frontend.vercel.app}")
     private String allowedOrigins;
 
     @Bean
